@@ -3,189 +3,241 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Paul Templier
+    tagline: PhD Student, Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: templier.paul@gmail.com 
+    phone: +33 7 81 53 59 70
+    # website: blog.webjeda.com #do not add http://
+    linkedin: paul-templier
+    # xing: alandoe
+    github: TemplierPaul
+    scholar: "https://scholar.google.com/citations?user=lPrCGzYAAAAJ&hl=fr&oi=ao"
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    # twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: French
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Certificate of Proficiency - C2
 
       - idiom: Spanish
-        level: Professional
+        level: Independant - B2
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
+      - item: Evolutionary computation
+      - item: Machine Learning
+      - item: Reinforcement Learning
+      - item: Open-ended evolution
+      - item: Auto-ML
+    hobbies:
       - item: Cooking
-        link:
+      - item: Game development
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hi, I'm a PhD student specializing in the use of evolutionary methods for the optimization of neural networks as intelligent agents. 
+      I also recently graduated as an ISAE-SUPAERO engineer, and have honed my coding skills on multiple side projects for the last few years. 
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Aerospace Engineering
+      university: ISAE-SUPAERO
+      link: https://www.isae-supaero.fr/fr/
+      time: 2016-2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Masters in general engineering, applied to aerospace problems. 
+        Specialized in Data Science (major) and Robotics (minor). 
+        Research projects:
+          - Deep Learning to solve NP-hard problems
+          - Deep Reinforcement Learning for human-machine cooperation.
+
+    - degree: MSc in Operations Research
+      university: ISAE-SUPAERO
+      link: https://www.isae-supaero.fr/fr/
+      time: 2019-2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Additional MSc coupled with the Data Science specialization with classes on:
+          - Optimization, 
+          - Advanced combinatorial optimization
+          - Stochastic and evolutionary methods
+
+    - degree: CPGE PTSI / PT*
+      university: Lycée J-B Say, Paris
+      time: 2014-2016
+      details: |
+        Preparation for national competitive exams leading to French "Grandes Ecoles”.   
+        Ranked (among 2556 candidates):
+        - 28th at "Concours Commun Mines-Pont PT"
+        - 33rd at "Concours Centrale-Supélec PT".
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: PhD in Machine Learning
+      time: 2021-Present
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised: 
+        - name: Emmanuel Rachelson,
+          link: https://people.isae-supaero.fr/emmanuel-rachelson?lang=en
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        PhD topic: Evolutionary methods to train artificial neural networks.  
+        Application: game-playing, control tasks, Reinforcement Learning  
+        Published work: *see Publications*
+    
+    - role: Research Intern
+      time: May-Nov 2020
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised: 
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Research internship on neuroevolution (evolution of neural networks with genetic algorithms)applied to video games.  
+        Optimizing artificial neural networks with evolutionary algorithms
+
+        Ranked first in the 
+
+    - role: Cybersecurity Consultant
+      time: Feb-Aug 2020
+      company: Wavestone, Paris, France
+      link: https://www.wavestone.com/en/
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Internship subject: current and future uses of AI for cybersecurity intrusion detection & response.
+        Developing a PoC of Machine Learning for anomaly detection in a Security Operation Center. 
+        Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies.
+
+    - role: CEO's Right Hand
+      time: Jul-Dec 2019
+      company: Pricemoov, Paris, France
+      link: https://pricemoov.com/
+      details: |
+        Leading high-stake international projects with long-term implications in an AI-focused startup.
+        Structuring internal processes and implementing management KPIs.
+        
+    - role: Quality-Audit analyst
+      time: 2016-2018
+      company: SUPAERO Junior Conseil, Toulouse
+      link: https://www.supaerojuniorconseil.com/
+      details: |
+        Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes. 
+        Developping tools in Excel / VBA.
+
+    - role: Quality-Audit analyst
+      time: 2016-2018
+      company: SUPAERO Junior Conseil, Toulouse
+      link: https://www.supaerojuniorconseil.com/
+      details: |
+        Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes. 
+        Developping tools in Excel / VBA.
+
+teaching:
+    - degree: Evolutionary Computation 
+      university: ISAE-SUPAERO
+      link: https://d9w.github.io/evolution/
+      time: May 2021
+      supervised: 
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+      details: |
+        Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
+          - Evolution of neural networks
+          - Quality-diversity approaches, evolution of behavior, coevolution 
+
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some of the recent projects I worked on, either during my PhD or my Masters degree, or as personal side projects.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: GENE
+        link: "https://github.com/TemplierPaul/GENE.jl"
+        tagline: A Geometric Encoding for Neural Network Evolution
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: NeuroEvolution.jl
+        link: "https://github.com/TemplierPaul/NeuroEvolution.jl"
+        tagline: A Julia implementation of NEAT-based neuroevolution algorithms (NEAT, CPPN, HyperNEAT)
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Multidimensional GP for multiclass classification
+        link: "https://github.com/TemplierPaul/Multidimensional-genetic-programming-for-multiclass-classification"
+        tagline: Jupyter notebook implementing, presenting and explaining a research paper for Data Science specialization.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Genepy
+        link: "https://github.com/TemplierPaul/Genepy"
+        tagline: Artificial life simulation in a 2D environment, with a custom implementation of NEAT for the brains. 
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Groinkbot
+        link: "https://github.com/GroinkIndustries/GroinkBot"
+        tagline: Multi-platform chatbot framework, based on a modular architecture and with a high-level interface.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    intro_research: |
+      Research papers:
+    research:
+      - title: A Geometric Encoding for Neural Network Evolution
+        link: "https://dl.acm.org/doi/10.1145/3449639.3459361"
+        code: "https://github.com/TemplierPaul/GENE.jl"
+        authors: Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
+        conference: GECCO 2021 (Genetic and Evolutionary Computation Conference)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Evolving a Dota 2 bot: Illuminating search in CGP and NEAT"
+        link: "https://raw.githubusercontent.com/d9w/DotaBot/master/article.pdf"
+        code: "https://github.com/d9w/DotaBot"
+        authors: Paul Templier, Lucas Hervier, Dennis G. Wilson
+        conference: Competition at GECCO 2020 
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    intro_articles: |
+      Blog articles:
+    articles:
+      - title: Detecting security incidents with Machine Learning (FR)
+        link: "https://www.riskinsight-wavestone.com/2019/08/detecter-incidents-machine-learning/"
+        authors: Hugo Moret, Paul Templier
+        conference: RiskInsight blog (Wavestone)
+
+      - title: Security of instant messaging applications (FR)
+        link: "https://www.riskinsight-wavestone.com/2019/07/messagerie-instantanee/"
+        authors: Wajih Jmaiel, Paul Templier
+        conference: RiskInsight blog (Wavestone)
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Julia
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Pytorch
+        level: 80%
+
+      - name: Java / C / R
+        level: 20%
+
+      - name: Javascript / Google App Script
+        level: 20%
+
+      - name: SQL / NoSQL
+        level: 20%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

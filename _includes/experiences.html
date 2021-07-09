@@ -19,7 +19,22 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      {% if experience.supervised %}
+        <div class="advisors">Supervised by 
+          {% for prof in experience.supervised %} 
+          <a href="{{ prof.link }}" target="_blank">{{ prof.name }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+
+      <div class="company">
+        {% if experience.link %}
+        <a href="{{ experience.link }}" target="_blank">{{ experience.company }}</a>
+        {% else %}
+        {{ experience.company }}
+        {% endif %}
+      </div>
 
     </div><!--//meta-->
 

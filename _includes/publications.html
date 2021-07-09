@@ -10,20 +10,48 @@
     {{ publications.title }}
   </h2>
 
-  {% if publications.intro %}
+  {% if publications.intro_research %}
   <div class="intro">
-    {{ publications.intro | markdownify }}
+    {{ publications.intro_research | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
-  {% for publication in publications.papers %}
+  {% for publication in publications.research %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <li><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></li>
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-authors">
+      {{ publication.authors }}
+      {% if publication.code %}
+        <a href="{{ publication.code }}" target="_blank"> (Code) </a></li>
+      {% endif %}
+    </div>
+    <div class="publication-conference">{{ publication.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+  {% if publications.intro_articles %}
+  <div class="intro">
+    {{ publications.intro_articles | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in publications.articles %}
+  <div class="item">
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></li>
+    {% else %}
+      <li>{{ publication.title }}</li>
+    {% endif %}
+    <div class="publication-authors">
+      {{ publication.authors }}
+      {% if publication.code %}
+        <a href="{{ publication.code }}" target="_blank"> (Code) </a></li>
+      {% endif %}
+    </div>
     <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
   {% endfor %}
