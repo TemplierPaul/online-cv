@@ -198,6 +198,11 @@ p {
         color: $text-grey;
     }
 
+    .advisors {
+        margin-bottom: 0px;
+        color: $text-grey;
+    }
+
     .project-title {
         font-size: 16px;
         font-weight: 400;
@@ -227,7 +232,8 @@ p {
     }
     .publications-section {
         .intro {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
+            font-size: 18px;
         }
         .item {
             margin-bottom: 15px;

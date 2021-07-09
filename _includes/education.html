@@ -37,6 +37,14 @@
           <div class="time">{{ graduation.time }}</div>
         </div><!--//upper-row-->
 
+        {% if graduation.supervised %}
+        <div class="advisors">Supervised by 
+          {% for prof in graduation.supervised %} 
+          <a href="{{ prof.link }}" target="_blank">{{ prof.name }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+  
         <div class="university">{{ graduation.university }}</div>
       </div><!--//meta-->
 
