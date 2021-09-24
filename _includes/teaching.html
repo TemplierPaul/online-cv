@@ -29,7 +29,7 @@
         </div>
       {% endif %}
   
-        <div class="university">{{ class.university }}</div>
+        <div class="university">{{ class.university }} {% if class.supervised %}({{ class.length }}) {% endif %}</div>
       </div><!--//meta-->
 
       {% if class.details %}

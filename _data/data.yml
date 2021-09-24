@@ -1,6 +1,7 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+pdf: true
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -143,6 +144,7 @@ teaching:
       university: ISAE-SUPAERO
       link: https://d9w.github.io/evolution/
       time: May 2021
+      length: 4h
       supervised: 
         - name: Dennis G. Wilson
           link: https://people.isae-supaero.fr/dennis-wilson?lang=en
@@ -150,6 +152,21 @@ teaching:
         Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
           - Evolution of neural networks
           - Quality-diversity approaches, evolution of behavior, coevolution 
+
+    - degree: Python - Algorithm and Computing
+      university: ISAE-SUPAERO
+      link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+      time: Oct-Dec 2021
+      length: 30h
+      supervised: 
+        - name: Jérôme LACAN 
+          link: https://personnel.isae-supaero.fr/jerome-lacan/
+      details: |
+        Teaching python to students in the FISA program:
+          - Basics of Python and algorithms
+          - 3D representation of planet movements
+          - Introduction to embedded systems with Micro:Bit
+
 
 
 projects:
