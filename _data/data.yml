@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: templier.paul@gmail.com 
     phone: +33 7 81 53 59 70
-    # website: blog.webjeda.com #do not add http://
+    website: templierpaul.github.io/ #do not add http://
     linkedin: paul-templier
     # xing: alandoe
     github: TemplierPaul
@@ -112,7 +112,7 @@ experiences:
         Research internship on neuroevolution (evolution of neural networks with genetic algorithms)applied to video games.  
         Optimizing artificial neural networks with evolutionary algorithms
 
-        Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot
+        Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot. 
 
     - role: Cybersecurity Consultant
       time: Feb-Aug 2020
@@ -205,12 +205,14 @@ publications:
         code: "https://github.com/TemplierPaul/GENE.jl"
         authors: Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
         conference: GECCO 2021 (Genetic and Evolutionary Computation Conference)
+        date: 2021-06
 
       - title: "Evolving a Dota 2 bot: Illuminating search in CGP and NEAT"
         link: "https://raw.githubusercontent.com/d9w/DotaBot/master/article.pdf"
         code: "https://github.com/d9w/DotaBot"
         authors: Paul Templier, Lucas Hervier, Dennis G. Wilson
         conference: Competition at GECCO 2020 
+        date: 2020-06
 
     intro_articles: |
       Blog articles:
@@ -219,12 +221,13 @@ publications:
         link: "https://www.riskinsight-wavestone.com/2019/08/detecter-incidents-machine-learning/"
         authors: Hugo Moret, Paul Templier
         conference: RiskInsight blog (Wavestone)
+        date: 2019-08
 
       - title: Security of instant messaging applications (FR)
         link: "https://www.riskinsight-wavestone.com/2019/07/messagerie-instantanee/"
         authors: Wajih Jmaiel, Paul Templier
         conference: RiskInsight blog (Wavestone)
-
+        date: 2019-07
 
 skills:
     title: Skills &amp; Proficiency
