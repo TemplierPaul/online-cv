@@ -1,0 +1,50 @@
+{% assign talks_list = site.data.data.talks %}
+{% if talks_list %}
+
+<section class="section educations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <!-- <i class="fa-solid fa-person-chalkboard fa-stack-1x fa-inverse"></i> -->
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    Talks
+  </h2>
+
+  {% for talk in talks_list %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="degree">
+          {{ talk.title }}
+        </h3>
+        <div class="time">{{ talk.date }}</div>
+      </div>
+      <!--//upper-row-->
+
+      <div class="university">
+        {{ talk.place }}
+        {% if talk.link %} - <a href="{{ talk.link }}" target="_blank">Video</a>
+        {% endif %}
+
+      </div>
+    </div>
+    <!--//meta-->
+
+    {% if talk.details %}
+    <div class="details">
+      {{ talk.details | markdownify }}
+    </div>
+    <!--//details-->
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
