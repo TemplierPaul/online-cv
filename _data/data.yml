@@ -250,23 +250,14 @@ publications:
   intro_research: |
     Research papers:
   research:
-    # - title: "On Policy Generalization in Deep Neuroevolution"
-    #   link: #TBD
-    #   code: "https://github.com/TemplierPaul/BERL"
-    #   authors: Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
-    #   conference: GECCO 2022 - Evolutionary RL Workshop
-    #   date: 2022-06-01
-    #   blog: #
-    #   excerpt: Evolution Strategies have been used as an efficient tool for policy optimization in Deep Reinforcement Learning, but their process relying on the score over one episode makes them sensitive to changes in the fitness environment. We compare two ES algorithms on Procgen, a recent benchmark that uses procedurally-generated environments to test for generalization, and discuss their shortcomings.
-
-    # - title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems"
-    #   link: #TBD
-    #   code: "https://github.com/TemplierPaul/pyUCEA"
-    #   authors: Erwan Lecarpentier, Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
-    #   conference: GECCO 2022 (Genetic and Evolutionary Computation Conference)
-    #   date: 2022-06-01
-    #   blog: #
-    #   excerpt: Selection in genetic algorithms is difficult for stochastic problems due to noise in the fitness space. Common methods to deal with this fitness noise include sampling multiple fitness values, which can be expensive. We propose LUCIE, the Lower Upper Confidence Intervals Elitism method, which selects individuals based on confi- dence. By focusing evaluation on separating promising individuals from others, we demonstrate that LUCIE can be effectively used as an elitism mechanism in genetic algorithms. We provide a the- oretical analysis on the convergence of LUCIE and demonstrate its ability to select fit individuals across multiple types of noise on the OneMax and LeadingOnes problems. We also evaluate LUCIE as a selection method for neuroevolution on control policies with stochastic fitness values.
+    - title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems"
+      link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      code: "https://github.com/TemplierPaul/pyUCEA"
+      authors: Erwan Lecarpentier, Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
+      conference: GECCO 2022 (Genetic and Evolutionary Computation Conference)
+      date: 2022-06-08
+      blog: #
+      excerpt: Selection in genetic algorithms is difficult for stochastic problems due to noise in the fitness space. Common methods to deal with this fitness noise include sampling multiple fitness values, which can be expensive. We propose LUCIE, the Lower Upper Confidence Intervals Elitism method, which selects individuals based on confi- dence. By focusing evaluation on separating promising individuals from others, we demonstrate that LUCIE can be effectively used as an elitism mechanism in genetic algorithms. We provide a the- oretical analysis on the convergence of LUCIE and demonstrate its ability to select fit individuals across multiple types of noise on the OneMax and LeadingOnes problems. We also evaluate LUCIE as a selection method for neuroevolution on control policies with stochastic fitness values.
 
     - title: A Geometric Encoding for Neural Network Evolution
       link: "https://dl.acm.org/doi/10.1145/3449639.3459361"
