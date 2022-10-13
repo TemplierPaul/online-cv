@@ -156,6 +156,45 @@ experiences:
       Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
 
 teaching:
+# - degree: Evolutionary Computation
+#     university: ISAE-SUPAERO
+#     link: https://d9w.github.io/evolution/
+#     time: April 2023
+#     length: 30h
+#     supervised:
+#       - name: Dennis G. Wilson
+#         link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+#     details: |
+#       Elective module on evolutionary computation for students in their 1st year of MSc Eng. I supervised group projects for the evaluation of the module and gave 3 classes:
+#         - Evolution of neural networks
+#         - Genetic representation and operator design
+#         - Quality-diversity approaches, evolution of behavior, coevolution
+      
+  - degree: Python - Algorithm and Computing
+    university: ISAE-SUPAERO
+    link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+    time: Oct-Dec 2022
+    length: 30h
+    supervised:
+      - name: Jérôme LACAN
+        link: https://personnel.isae-supaero.fr/jerome-lacan/
+    details: |
+      Teaching python to students in the FISA program:
+        - Basics of Python and algorithms
+        - 3D representation of planet movements
+        - Introduction to embedded systems with Micro:Bit
+
+  - degree: Python - Algorithm and Computing
+    university: ISAE-SUPAERO
+    link: https://www.isae-supaero.fr/fr/formations/masters/master-of-science-in-aerospace-engineering/
+    time: Oct 2022
+    length: 5h
+    supervised:
+      - name: Jérôme LACAN
+        link: https://personnel.isae-supaero.fr/jerome-lacan/
+    details: |
+      Python class for students from the Master of Science in Aerospace Engineering (MAE).
+
   - degree: Evolutionary Computation
     university: ISAE-SUPAERO
     link: https://d9w.github.io/evolution/
@@ -248,7 +287,7 @@ projects:
 publications:
   title: Publications
   intro_research: |
-    Research papers:
+    Peer reviewed:
   research:
     - title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems"
       link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
