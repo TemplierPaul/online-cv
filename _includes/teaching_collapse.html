@@ -1,0 +1,72 @@
+{% assign teaching = site.data.data.teaching %}
+{% if teaching %}
+
+<section class="section educations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    Teaching
+  </h2>
+
+
+
+  {% for class in teaching %}
+  <div class="item">
+
+    <div class="meta">
+      <button type="button" class="collapsible upper-row">
+        <!-- <div class="upper-row"> -->
+        <h3 class="degree">{{ class.degree }}</h3>
+        <div class="time">{{ class.time }}</div>
+        <!-- </div> -->
+        <!--//upper-row-->
+
+        {% if class.supervised %}
+        <div class="advisors">Class managed by
+          {% for prof in class.supervised %}
+          <a href="{{ prof.link }}" target="_blank">{{ prof.name }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="university">{{ class.university }} {% if class.supervised %}({{ class.length }}) {% endif %}</div>
+        <!--//meta-->
+      </button>
+
+      {% if class.details %}
+      <div class="content">
+        <div class="details">
+          {{ class.details | markdownify }}
+        </div>
+        <!--//details-->
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+</script>

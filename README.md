@@ -4,4 +4,4 @@ Online CV for Paul Templier, PhD student at ISAE-SUPAERO (Toulouse, France).
 
 Forked from https://github.com/sharu725/online-cv
 
-(Run `jekyll serve` to generate)
+(Run `jekyll serve --force_polling` to generate)

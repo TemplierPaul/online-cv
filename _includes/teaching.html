@@ -1,45 +1,50 @@
 {% assign teaching = site.data.data.teaching %}
 {% if teaching %}
 
-  <section class="section educations-section">
+<section class="section educations-section">
 
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
-      </span>
-      Teaching
-    </h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    Teaching
+  </h2>
 
-    {% for class in teaching %}
-    <div class="item">
+  {% for class in teaching %}
+  <div class="item">
 
-      <div class="meta">
+    <div class="meta">
 
-        <div class="upper-row">
-          <h3 class="degree">{{ class.degree }}</h3>
-          <div class="time">{{ class.time }}</div>
-        </div><!--//upper-row-->
+      <div class="upper-row">
+        <h3 class="degree">{{ class.degree }}</h3>
+        <div class="time">{{ class.time }}</div>
+      </div>
+      <!--//upper-row-->
 
-        {% if class.supervised %}
-        <div class="advisors">Class managed by 
-          {% for prof in class.supervised %} 
-          <a href="{{ prof.link }}" target="_blank">{{ prof.name }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
-  
-        <div class="university">{{ class.university }} {% if class.supervised %}({{ class.length }}) {% endif %}</div>
-      </div><!--//meta-->
-
-      {% if class.details %}
-      <div class="details">
-        {{ class.details | markdownify }}
-      </div><!--//details-->
+      {% if class.supervised %}
+      <div class="advisors">Class managed by
+        {% for prof in class.supervised %}
+        <a href="{{ prof.link }}" target="_blank">{{ prof.name }}</a>
+        {% endfor %}
+      </div>
       {% endif %}
 
-    </div><!--//item-->
-    {% endfor %}
+      <div class="university">{{ class.university }} {% if class.supervised %}({{ class.length }}) {% endif %}</div>
+    </div>
+    <!--//meta-->
 
-  </section><!--//section-->
+    {% if class.details %}
+    <div class="details">
+      {{ class.details | markdownify }}
+    </div>
+    <!--//details-->
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
 {% endif %}

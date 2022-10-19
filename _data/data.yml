@@ -51,7 +51,7 @@ sidebar:
     - idiom: JS / HTML / CSS
       level: Side projects
 
-    - idiom: Pytorch, sklearn, pandas, MPI
+    - idiom: Pytorch, sklearn, pandas, MPI, Ray
       level: Computing tools
 
   interests:
@@ -139,6 +139,13 @@ experiences:
       Internship subject: current and future uses of AI for cybersecurity intrusion detection & response.
       Developing a PoC of Machine Learning for anomaly detection in a Security Operation Center. 
       Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies.
+  
+  - role: Member of the Board
+    time: 2017-2020
+    company: ISAE-SUPAERO, Toulouse, France
+    link: https://www.isae-supaero.fr/fr/
+    details: |
+      Elected mandate as Students Representative on the ISAE-SUPAERO board.
 
   - role: CEO's Right Hand
     time: Jul-Dec 2019
@@ -154,6 +161,13 @@ experiences:
     link: https://www.supaerojuniorconseil.com/
     details: |
       Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
+
+  - role: Member of the Board
+    time: 2015-2016
+    company: Lycée J-B Say, Paris
+    link: http://lyc-jb-say.scola.ac-paris.fr/
+    details: |
+      Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
 
 teaching:
 # - degree: Evolutionary Computation
@@ -193,7 +207,18 @@ teaching:
       - name: Jérôme LACAN
         link: https://personnel.isae-supaero.fr/jerome-lacan/
     details: |
-      Python class for students from the Master of Science in Aerospace Engineering (MAE).
+      Python class for students from the Master of Science in Aerospace Engineering.
+
+  - degree: Bash & Python
+    university: ISAE-SUPAERO
+    link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+    time: Sept 2022
+    length: 14h
+    supervised:
+      - name: Dennis G. Wilson
+        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+    details: |
+      Introduction to Bash, Git and Python for students in the last year of the MSc Eng. program.
 
   - degree: Evolutionary Computation
     university: ISAE-SUPAERO
