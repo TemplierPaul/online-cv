@@ -10,7 +10,7 @@ sidebar:
   # Profile information
   name: Paul Templier
   tagline: PhD Student, Engineer
-  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: cv.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: templier.paul@gmail.com
@@ -51,7 +51,7 @@ sidebar:
     - idiom: JS / HTML / CSS
       level: Side projects
 
-    - idiom: Pytorch, sklearn, pandas, MPI, Ray
+    - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
       level: Computing tools
 
   interests:
@@ -61,6 +61,7 @@ sidebar:
     - item: Evolution Strategies
     - item: Open-ended evolution
     - item: Auto-ML
+    - item: Robotics
   hobbies:
     - item: Cooking
     - item: Game development
@@ -113,9 +114,21 @@ experiences:
       - name: Dennis G. Wilson
         link: https://people.isae-supaero.fr/dennis-wilson?lang=en
     details: |
-      PhD topic: Evolutionary methods to train artificial neural networks.  
+      PhD topic: Evolutionary strategies for neural policy search.  
       Application: game-playing, control tasks, Reinforcement Learning  
+      Intern co-supervision: Tarek Kunze on GENE encoding extension.  
       Published work: *see Publications*
+
+  - role: Visiting PhD Student
+    time: Mar-Jul 2023
+    company: Imperial College London, UK
+    link: https://www.imperial.ac.uk/adaptive-intelligent-robotics/
+    supervised:
+      - name: Antoine Cully
+        link: https://www.imperial.ac.uk/people/a.cully
+
+    details: |
+      Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London to work on evolution strategies for policy search applied to robotics, and on the combination of evolutionary methods with reinforcement learning.
 
   - role: Research Intern
     time: May-Nov 2020
@@ -170,20 +183,6 @@ experiences:
       Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
 
 teaching:
-# - degree: Evolutionary Computation
-#     university: ISAE-SUPAERO
-#     link: https://d9w.github.io/evolution/
-#     time: April 2023
-#     length: 30h
-#     supervised:
-#       - name: Dennis G. Wilson
-#         link: https://people.isae-supaero.fr/dennis-wilson?lang=en
-#     details: |
-#       Elective module on evolutionary computation for students in their 1st year of MSc Eng. I supervised group projects for the evaluation of the module and gave 3 classes:
-#         - Evolution of neural networks
-#         - Genetic representation and operator design
-#         - Quality-diversity approaches, evolution of behavior, coevolution
-      
   - degree: Python - Algorithm and Computing
     university: ISAE-SUPAERO
     link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
@@ -308,6 +307,12 @@ projects:
       tagline: Python tool to easily configure and run experiments on remote hosts with pre-defined configurations through SSH
       date: 2022-01-01
       collection: Tool  
+
+    - title: Solvers
+      link: "https://github.com/TemplierPaul/Solvers"
+      tagline: Bruteforce solvers for puzzle games like Minesweeper or Scrabble. 
+      date: 2023-01-01
+      collection: Personal Project
 
 publications:
   title: Publications
