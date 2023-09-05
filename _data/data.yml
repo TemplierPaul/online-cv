@@ -4,6 +4,7 @@
 pdf: true
 
 sidebar:
+  position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
@@ -27,42 +28,51 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-
+  pdf: 
+  
   languages:
-    - idiom: French
-      level: Native
+    title: Languages
+    info:
+      - idiom: French
+        level: Native
 
-    - idiom: English
-      level: Certificate of Proficiency - C2
+      - idiom: English
+        level: Certificate of Proficiency - C2
 
-    - idiom: Spanish
-      level: Independant - B2
+      - idiom: Spanish
+        level: Independant - B2
 
   cs_languages:
-    - idiom: Python
-      level: Proficient, teaching experience
+    title: Coding
+    info:
+      - idiom: Python
+        level: Proficient, teaching experience
 
-    - idiom: Julia
-      level: Professional experience
+      - idiom: Julia
+        level: Professional experience
 
-    - idiom: C / Java
-      level: Academic experience
+      - idiom: C / Java
+        level: Academic experience
 
-    - idiom: JS / HTML / CSS
-      level: Side projects
+      - idiom: JS / HTML / CSS
+        level: Side projects
 
-    - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
-      level: Computing tools
+      - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
+        level: Computing tools
 
   interests:
-    - item: Evolutionary computation
-    - item: Machine Learning
-    - item: Reinforcement Learning
-    - item: Evolution Strategies
-    - item: Open-ended evolution
-    - item: Auto-ML
-    - item: Robotics
+    title: Interests
+    info:
+      - item: Evolutionary computation
+      - item: Machine Learning
+      - item: Reinforcement Learning
+      - item: Evolution Strategies
+      - item: Open-ended evolution
+      - item: Auto-ML
+      - item: Robotics
   hobbies:
+    title: Hobbies
+    info:
     - item: Cooking
     - item: Game development
 
@@ -73,114 +83,118 @@ career-profile:
     I recently graduated as an ISAE-SUPAERO engineer, and have been honing my coding skills on multiple side projects for the last decade.
 
 education:
-  - degree: MSc in Aerospace Engineering
-    university: ISAE-SUPAERO
-    link: https://www.isae-supaero.fr/fr/
-    time: 2016-2020
-    details: |
-      Masters in general engineering, applied to aerospace problems. 
-      Specialized in Data Science (major) and Robotics (minor). 
-      Research projects:
-        - Deep Learning to solve NP-hard problems
-        - Deep Reinforcement Learning for human-machine cooperation.
+  title: Education
+  info:
+    - degree: MSc in Aerospace Engineering
+      university: ISAE-SUPAERO
+      link: https://www.isae-supaero.fr/fr/
+      time: 2016-2020
+      details: |
+        Masters in general engineering, applied to aerospace problems. 
+        Specialized in Data Science (major) and Robotics (minor). 
+        Research projects:
+          - Deep Learning to solve NP-hard problems
+          - Deep Reinforcement Learning for human-machine cooperation.
 
-  - degree: MSc in Operations Research
-    university: ISAE-SUPAERO
-    link: https://www.isae-supaero.fr/fr/
-    time: 2019-2020
-    details: |
-      Additional MSc coupled with the Data Science specialization with classes on:
-        - Optimization, 
-        - Advanced combinatorial optimization
-        - Stochastic and evolutionary methods
+    - degree: MSc in Operations Research
+      university: ISAE-SUPAERO
+      link: https://www.isae-supaero.fr/fr/
+      time: 2019-2020
+      details: |
+        Additional MSc coupled with the Data Science specialization with classes on:
+          - Optimization, 
+          - Advanced combinatorial optimization
+          - Stochastic and evolutionary methods
 
-  - degree: CPGE PTSI / PT*
-    university: Lycée J-B Say, Paris
-    time: 2014-2016
-    details: |
-      Preparation for national competitive exams leading to French "Grandes Ecoles”.   
-      Ranked (among 2556 candidates):
-      - 28th at "Concours Commun Mines-Pont PT"
-      - 33rd at "Concours Centrale-Supélec PT".
+    - degree: CPGE PTSI / PT*
+      university: Lycée J-B Say, Paris
+      time: 2014-2016
+      details: |
+        Preparation for national competitive exams leading to French "Grandes Ecoles”.   
+        Ranked (among 2556 candidates):
+        - 28th at "Concours Commun Mines-Pont PT"
+        - 33rd at "Concours Centrale-Supélec PT".
 
 experiences:
-  - role: PhD in Machine Learning
-    time: 2021-Present
-    company: ISAE-SUPAERO, Toulouse, France
-    link: https://www.isae-supaero.fr/fr/
-    supervised:
-      - name: Emmanuel Rachelson,
-        link: https://people.isae-supaero.fr/emmanuel-rachelson?lang=en
-      - name: Dennis G. Wilson
-        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
-    details: |
-      PhD topic: Evolutionary strategies for neural policy search.  
-      Application: game-playing, control tasks, Reinforcement Learning  
-      Intern co-supervision: Tarek Kunze on GENE encoding extension.  
-      Published work: *see Publications*
+  title: Work Experiences
+  info:
+    - role: PhD in Machine Learning
+      time: 2021-Present
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised:
+        - name: Emmanuel Rachelson,
+          link: https://people.isae-supaero.fr/emmanuel-rachelson?lang=en
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+      details: |
+        PhD topic: Evolutionary strategies for neural policy search.  
+        Application: game-playing, control tasks, Reinforcement Learning  
+        Intern co-supervision: Tarek Kunze on GENE encoding extension.  
+        Published work: *see Publications*
 
-  - role: Visiting PhD Student
-    time: Mar-Jul 2023
-    company: Imperial College London, UK
-    link: https://www.imperial.ac.uk/adaptive-intelligent-robotics/
-    supervised:
-      - name: Antoine Cully
-        link: https://www.imperial.ac.uk/people/a.cully
+    - role: Visiting PhD Student
+      time: Mar-Jul 2023
+      company: Imperial College London, UK
+      link: https://www.imperial.ac.uk/adaptive-intelligent-robotics/
+      supervised:
+        - name: Antoine Cully
+          link: https://www.imperial.ac.uk/people/a.cully
 
-    details: |
-      Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London to work on evolution strategies for policy search applied to robotics, and on the combination of evolutionary methods with reinforcement learning.
+      details: |
+        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London to work on evolution strategies for policy search applied to robotics, and on the combination of evolutionary methods with reinforcement learning.
 
-  - role: Research Intern
-    time: May-Nov 2020
-    company: ISAE-SUPAERO, Toulouse, France
-    link: https://www.isae-supaero.fr/fr/
-    supervised:
-      - name: Dennis G. Wilson
-        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+    - role: Research Intern
+      time: May-Nov 2020
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      supervised:
+        - name: Dennis G. Wilson
+          link: https://people.isae-supaero.fr/dennis-wilson?lang=en
 
-    details: |
-      Research internship on neuroevolution (evolution of neural networks with genetic algorithms)applied to video games.  
-      Optimizing artificial neural networks with evolutionary algorithms
+      details: |
+        Research internship on neuroevolution (evolution of neural networks with genetic algorithms)applied to video games.  
+        Optimizing artificial neural networks with evolutionary algorithms
 
-      Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
+        Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
 
-  - role: Cybersecurity Consultant
-    time: Feb-Aug 2020
-    company: Wavestone, Paris, France
-    link: https://www.wavestone.com/en/
-    details: |
-      Internship subject: current and future uses of AI for cybersecurity intrusion detection & response.
-      Developing a PoC of Machine Learning for anomaly detection in a Security Operation Center. 
-      Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies.
-  
-  - role: Member of the Board
-    time: 2017-2020
-    company: ISAE-SUPAERO, Toulouse, France
-    link: https://www.isae-supaero.fr/fr/
-    details: |
-      Elected mandate as Students Representative on the ISAE-SUPAERO board.
+    - role: Cybersecurity Consultant
+      time: Feb-Aug 2020
+      company: Wavestone, Paris, France
+      link: https://www.wavestone.com/en/
+      details: |
+        Internship subject: current and future uses of AI for cybersecurity intrusion detection & response.
+        Developing a PoC of Machine Learning for anomaly detection in a Security Operation Center. 
+        Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies.
+    
+    - role: Member of the Board
+      time: 2017-2020
+      company: ISAE-SUPAERO, Toulouse, France
+      link: https://www.isae-supaero.fr/fr/
+      details: |
+        Elected mandate as Students Representative on the ISAE-SUPAERO board.
 
-  - role: CEO's Right Hand
-    time: Jul-Dec 2019
-    company: Pricemoov, Paris, France
-    link: https://pricemoov.com/
-    details: |
-      Leading high-stake international projects with long-term implications in an AI-focused startup.
-      Structuring internal processes and implementing management KPIs.
+    - role: CEO's Right Hand
+      time: Jul-Dec 2019
+      company: Pricemoov, Paris, France
+      link: https://pricemoov.com/
+      details: |
+        Leading high-stake international projects with long-term implications in an AI-focused startup.
+        Structuring internal processes and implementing management KPIs.
 
-  - role: Quality-Audit analyst
-    time: 2016-2018
-    company: SUPAERO Junior Conseil, Toulouse
-    link: https://www.supaerojuniorconseil.com/
-    details: |
-      Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
+    - role: Quality-Audit analyst
+      time: 2016-2018
+      company: SUPAERO Junior Conseil, Toulouse
+      link: https://www.supaerojuniorconseil.com/
+      details: |
+        Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
 
-  - role: Member of the Board
-    time: 2015-2016
-    company: Lycée J-B Say, Paris
-    link: http://lyc-jb-say.scola.ac-paris.fr/
-    details: |
-      Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
+    - role: Member of the Board
+      time: 2015-2016
+      company: Lycée J-B Say, Paris
+      link: http://lyc-jb-say.scola.ac-paris.fr/
+      details: |
+        Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
 
 teaching:
   - degree: Python - Algorithm and Computing

@@ -9,11 +9,11 @@
   <ul class="list-unstyled interests-list">
     {% for interest in interests.info %}
 
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-      {% else %}
-      <li>{{ interest.item }}</li>
-      {% endif %}
+    {% if interest.link %}
+    <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+    {% else %}
+    <li>{{ interest.item }}</li>
+    {% endif %}
 
     {% endfor %}
   </ul>
@@ -26,17 +26,17 @@
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Hobbies
+    {{ hobbies.title }}
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {% for hobby in hobbies %}
+    {% for hobby in hobbies.info %}
 
-      {% if hobby.link %}
-      <li><a href="{{ hobby.link }}">{{ hobby.item }}</a></li>
-      {% else %}
-      <li>{{ hobby.item }}</li>
-      {% endif %}
+    {% if hobby.link %}
+    <li><a href="{{ hobby.link }}">{{ hobby.item }}</a></li>
+    {% else %}
+    <li>{{ hobby.item }}</li>
+    {% endif %}
 
     {% endfor %}
   </ul>
