@@ -237,6 +237,13 @@ p {
     flex: 25%;
   }
 
+  .summary {
+    // font-style: italic;
+    // color: $text-grey;
+    text-align: justify;
+    margin-bottom: 1px;
+  }
+
   .company,
   .university,
   .cert-org {
@@ -255,16 +262,18 @@ p {
   .projects-section {
     .intro {
       margin-bottom: 30px;
+      text-align: justify;
     }
 
     .item {
       margin-bottom: 15px;
+      text-align: justify;
     }
   }
 
   .publication-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     color: $text-color;
     margin-bottom: 1px;
   }
@@ -272,6 +281,13 @@ p {
   .publication-authors {
     font-style: italic;
     color: $text-grey;
+    margin-bottom: 1px;
+  }
+
+  .publication-tldr {
+    // font-style: italic;
+    // color: $text-grey;
+    text-align: justify;
     margin-bottom: 1px;
   }
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate PDF CV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+    <script>
+        async function getPrintContent() {
+            try {
+                const response = await fetch('/print');
+                const data = await response.text();
+                return data;
+            } catch (error) {
+                console.error('Error fetching print content:', error);
+                return ''; // Returning empty string if there's an error
+            }
+        }
+
+        async function generatePDF() {
+            try {
+                // Ensure jsPDF is loaded before using it
+                if (typeof jsPDF !== 'undefined') {
+                    var doc = new jsPDF();
+                    var content = await getPrintContent(); // Wait for content to be fetched
+                    doc.html(content, {
+                        callback: function (doc) {
+                            doc.save('MyCV.pdf');
+                        }
+                    });
+                } else {
+                    console.error('jsPDF is not defined');
+                }
+            } catch (error) {
+                console.error('Error generating PDF:', error);
+                // Handle error if PDF generation fails
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Download your CV as PDF</h1>
+    <button onclick="generatePDF()">Generate PDF</button>
+</body>
+
+</html>

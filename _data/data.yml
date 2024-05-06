@@ -10,7 +10,7 @@ sidebar:
 
   # Profile information
   name: Paul Templier
-  tagline: PhD Student, Engineer
+  tagline: PhD, Engineer
   avatar: cv.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -28,7 +28,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: cv_templier.pdf
+  pdf: PhD_CV.pdf
 
   languages:
     title: Languages
@@ -48,6 +48,9 @@ sidebar:
       - idiom: Python
         level: Proficient, teaching experience
 
+      - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
+        level: Computing tools
+
       - idiom: Julia
         level: Professional experience
 
@@ -56,9 +59,6 @@ sidebar:
 
       - idiom: JS / HTML / CSS
         level: Side projects
-
-      - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
-        level: Computing tools
 
   interests:
     title: Interests
@@ -79,19 +79,19 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Hi, I'm a PhD student specializing in the use of evolutionary methods for the optimization of neural networks as intelligent agents. 
-    I recently graduated as an ISAE-SUPAERO engineer, and have been honing my coding skills on multiple side projects for the last decade.
+    Hi, I recently graduated with a PhD in Machine Learning, specializing in the use of evolutionary methods for the optimization of neural networks as intelligent agents. 
+    With a background in engineering combined with experience in consulting and teaching, I have built a wide range of skills to be comfortable at all stages of development: from research to implementation, from technical depth to high-level communication, from individual work to team collaboration.
+    
 
 education:
   title: Education
   info:
-    - degree: MSc in Aerospace Engineering
+    - degree: MSc in Engineering
       university: ISAE-SUPAERO
-      link: https://www.isae-supaero.fr/fr/
+      link: https://www.isae-supaero.fr/en/academics/ingenieur-isae-supaero-msc/presentation/
       time: 2016-2020
       details: |
-        Masters in general engineering, applied to aerospace problems. 
-        Specialized in Data Science (major) and Robotics (minor). 
+        Masters in general engineering, applied to aerospace problems. Specialized in Data Science (major) and Robotics (minor). 
         Research projects:
           - Deep Learning to solve NP-hard problems
           - Deep Reinforcement Learning for human-machine cooperation.
@@ -106,14 +106,14 @@ education:
           - Advanced combinatorial optimization
           - Stochastic and evolutionary methods
 
-    - degree: CPGE PTSI / PT*
-      university: Lycée J-B Say, Paris
-      time: 2014-2016
-      details: |
-        Preparation for national competitive exams leading to French "Grandes Ecoles”.   
-        Ranked (among 2556 candidates):
-        - 28th at "Concours Commun Mines-Pont PT"
-        - 33rd at "Concours Centrale-Supélec PT".
+    # - degree: CPGE PTSI / PT*
+    #   university: Lycée J-B Say, Paris
+    #   time: 2014-2016
+    #   details: |
+    #     Preparation for national competitive exams leading to French "Grandes Ecoles”.   
+    #     Ranked (among 2556 candidates):
+    #     - 28th at "Concours Commun Mines-Pont PT"
+    #     - 33rd at "Concours Centrale-Supélec PT".
 
 experiences:
   title: Work Experiences
@@ -128,10 +128,8 @@ experiences:
         - name: Dennis G. Wilson
           link: https://people.isae-supaero.fr/dennis-wilson?lang=en
       details: |
-        PhD topic: Evolutionary strategies for neural policy search.  
-        Application: game-playing, control tasks, Reinforcement Learning  
-        Intern co-supervision: Tarek Kunze on GENE encoding extension.  
-        Published work: *see Publications*
+        Research on Evolution Strategies for policy search, covering deep RL, Quality-Diversity, Genetic Programming.
+        Teaching: 150h in Python and Evolutionary Computation. Co-supervision of an intern leading to a CEC paper.
 
     - role: Visiting PhD Student
       time: Mar-Jul 2023
@@ -142,7 +140,7 @@ experiences:
           link: https://www.imperial.ac.uk/people/a.cully
 
       details: |
-        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London to work on evolution strategies for policy search applied to robotics, and on the combination of evolutionary methods with reinforcement learning.
+        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London: studying Evolutionary RL and mixes of ES with Quality-Diversity.
 
     - role: Research Intern
       time: May-Nov 2020
@@ -153,26 +151,22 @@ experiences:
           link: https://people.isae-supaero.fr/dennis-wilson?lang=en
 
       details: |
-        Research internship on neuroevolution (evolution of neural networks with genetic algorithms)applied to video games.  
-        Optimizing artificial neural networks with evolutionary algorithms
+        Evolution of neural networks with genetic algorithms for to video games. Implementing NEAT, HyperNEAT in Julia. Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
 
-        Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
-
-    - role: Cybersecurity Consultant
-      time: Feb-Aug 2020
-      company: Wavestone, Paris, France
-      link: https://www.wavestone.com/en/
-      details: |
-        Internship subject: current and future uses of AI for cybersecurity intrusion detection & response.
-        Developing a PoC of Machine Learning for anomaly detection in a Security Operation Center. 
-        Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies.
-    
     - role: Member of the Board
       time: 2017-2020
       company: ISAE-SUPAERO, Toulouse, France
       link: https://www.isae-supaero.fr/fr/
       details: |
         Elected mandate as Students Representative on the ISAE-SUPAERO board.
+
+    - role: Cybersecurity Consultant
+      time: Feb-Aug 2020
+      company: Wavestone, Paris, France
+      link: https://www.wavestone.com/en/
+      details: |
+        Internship subject: uses of AI for cybersecurity intrusion detection & response, implementation of a PoC. 
+        Other missions: EBIOS risk analysis, impacts on cybersecurity of emerging technologies (i.e. quantum computing).
 
     - role: CEO's Right Hand
       time: Jul-Dec 2019
@@ -182,97 +176,113 @@ experiences:
         Leading high-stake international projects with long-term implications in an AI-focused startup.
         Structuring internal processes and implementing management KPIs.
 
-    - role: Quality-Audit analyst
-      time: 2016-2018
-      company: SUPAERO Junior Conseil, Toulouse
-      link: https://www.supaerojuniorconseil.com/
-      details: |
-        Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
+    # - role: Quality-Audit analyst
+    #   time: 2016-2018
+    #   company: SUPAERO Junior Conseil, Toulouse
+    #   link: https://www.supaerojuniorconseil.com/
+    #   details: |
+    #     Continuous improvement of ISAE-Supaero’s Junior-Entreprise processes, developing tools in Excel / VBA. Member of the Strategic Guidance Board until 2021.
 
-    - role: Member of the Board
-      time: 2015-2016
-      company: Lycée J-B Say, Paris
-      link: http://lyc-jb-say.scola.ac-paris.fr/
-      details: |
-        Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
+    # - role: Member of the Board
+    #   time: 2015-2016
+    #   company: Lycée J-B Say, Paris
+    #   link: http://lyc-jb-say.scola.ac-paris.fr/
+    #   details: |
+    #     Elected mandate as CPGE Students Representative on the board of Lycée J-B Say.
 
 teaching:
+  - degree: Evolutionary Computation
+    university: ISAE-SUPAERO
+    link: https://d9w.github.io/evolution/
+    time: 2021-2022-2024
+    length: 40h total
+    supervised:
+      - name: Dennis G. Wilson
+        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+    details: |
+      Elective module on evolutionary computation for students in their 1st year of MEng program. Teaching:
+        - Evolution Strategies
+        - Evolution of neural networks
+        - Genetic representation and operator design
+        - Quality-diversity approaches, evolution of behavior, coevolution
+        - Final project supervision: policy search for soft robots with ES
+
   - degree: Python - Algorithm and Computing
     university: ISAE-SUPAERO
     link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
-    time: Oct-Dec 2022
-    length: 30h
+    time: 2021-2022-2023
+    length: 100h total
     supervised:
       - name: Jérôme LACAN
         link: https://personnel.isae-supaero.fr/jerome-lacan/
     details: |
-      Teaching python to students in the FISA program:
+      Teaching python to students in the FISA program and MSc in Aerospace Engineering:
         - Basics of Python and algorithms
         - 3D representation of planet movements
         - Introduction to embedded systems with Micro:Bit
 
-  - degree: Python - Algorithm and Computing
-    university: ISAE-SUPAERO
-    link: https://www.isae-supaero.fr/fr/formations/masters/master-of-science-in-aerospace-engineering/
-    time: Oct 2022
-    length: 5h
-    supervised:
-      - name: Jérôme LACAN
-        link: https://personnel.isae-supaero.fr/jerome-lacan/
-    details: |
-      Python class for students from the Master of Science in Aerospace Engineering.
+  # - degree: Python - Algorithm and Computing
+  #   university: ISAE-SUPAERO
+  #   link: https://www.isae-supaero.fr/fr/formations/masters/master-of-science-in-aerospace-engineering/
+  #   time: Oct 2022
+  #   length: 5h
+  #   supervised:
+  #     - name: Jérôme LACAN
+  #       link: https://personnel.isae-supaero.fr/jerome-lacan/
+  #   details: |
+  #     Python class for students from the Master of Science in Aerospace Engineering.
 
   - degree: Bash & Python
     university: ISAE-SUPAERO
     link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
-    time: Sept 2022
-    length: 14h
+    time: 2022-2023
+    length: 20h
     supervised:
       - name: Dennis G. Wilson
         link: https://people.isae-supaero.fr/dennis-wilson?lang=en
     details: |
-      Introduction to Bash, Git and Python for students in the last year of the MSc Eng. program.
+      Introduction to Bash, Git and Python for students in the last year of the MEng. program.
 
-  - degree: Evolutionary Computation
-    university: ISAE-SUPAERO
-    link: https://d9w.github.io/evolution/
-    time: April 2022
-    length: 18h
-    supervised:
-      - name: Dennis G. Wilson
-        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
-    details: |
-      Elective module on evolutionary computation for students in their 1st year of MSc Eng. I supervised group projects for the evaluation of the module and gave 3 classes:
-        - Evolution of neural networks
-        - Genetic representation and operator design
-        - Quality-diversity approaches, evolution of behavior, coevolution
+  # - degree: Evolutionary Computation
+  #   university: ISAE-SUPAERO
+  #   link: https://d9w.github.io/evolution/
+  #   time: April 2022
+  #   length: 18h
+  #   supervised:
+  #     - name: Dennis G. Wilson
+  #       link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+  #   details: |
+  #     Elective module on evolutionary computation for students in their 1st year of MSc Eng. I supervised group projects for the evaluation of the module and gave 3 classes:
+  #       - Evolution of neural networks
+  #       - Genetic representation and operator design
+  #       - Quality-diversity approaches, evolution of behavior, coevolution
       
-  - degree: Python - Algorithm and Computing
-    university: ISAE-SUPAERO
-    link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
-    time: Oct-Dec 2021
-    length: 30h
-    supervised:
-      - name: Jérôme LACAN
-        link: https://personnel.isae-supaero.fr/jerome-lacan/
-    details: |
-      Teaching python to students in the FISA program:
-        - Basics of Python and algorithms
-        - 3D representation of planet movements
-        - Introduction to embedded systems with Micro:Bit
+  # - degree: Python - Algorithm and Computing
+  #   university: ISAE-SUPAERO
+  #   link: https://www.isae-supaero.fr/fr/formations/formation-ingenieur-par-apprentissage/le-cursus-85/
+  #   time: Oct-Dec 2021
+  #   length: 30h
+  #   supervised:
+  #     - name: Jérôme LACAN
+  #       link: https://personnel.isae-supaero.fr/jerome-lacan/
+  #   details: |
+  #     Teaching python to students in the FISA program:
+  #       - Basics of Python and algorithms
+  #       - 3D representation of planet movements
+  #       - Introduction to embedded systems with Micro:Bit
 
-  - degree: Evolutionary Computation
-    university: ISAE-SUPAERO
-    link: https://d9w.github.io/evolution/
-    time: May 2021
-    length: 4h
-    supervised:
-      - name: Dennis G. Wilson
-        link: https://people.isae-supaero.fr/dennis-wilson?lang=en
-    details: |
-      Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
-        - Evolution of neural networks
-        - Quality-diversity approaches, evolution of behavior, coevolution
+  # - degree: Evolutionary Computation
+  #   university: ISAE-SUPAERO
+  #   link: https://d9w.github.io/evolution/
+  #   time: May 2021
+  #   length: 4h
+  #   supervised:
+  #     - name: Dennis G. Wilson
+  #       link: https://people.isae-supaero.fr/dennis-wilson?lang=en
+  #   details: |
+  #     Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
+  #       - Evolution of neural networks
+  #       - Quality-diversity approaches, evolution of behavior, coevolution
 
 projects:
   title: Projects
@@ -330,25 +340,72 @@ projects:
 
 publications:
   title: Publications
+  manuscript:
+    - title: "Leveraging Structures in Evolutionary Neural Policy Search"
+      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      # defense: "TODO"
+      authors: Paul Templier
+      date: 2024-04-22
+      # blog: #
+      tldr: "While training an artificial agent for complex tasks like driving a car, mastering a video game, or controlling plasma in a nuclear fusion reactor, innovations can lead to intelligent behavior. In such scenarios, a promising approach is to mimick the natural world's evolutionary process, which has honed the problem-solving capabilities of animal brains. Evolutionary Neural Policy Search (ENPS) draws inspiration from this concept. It creates a diverse population of ``brains'' represented by neural networks, allowing the system to ``evolve'' by selectively combining and mutating successful individuals. This thesis delves into the core components of ENPS and their intricate interplay. By analyzing the structures of ENPS, the goal is to design novel policy search methods that enhance these components, ultimately leading to the development of more efficient and effective learning algorithms for complex tasks."
+
   intro_research: |
     Peer reviewed:
   research:
+
+    - title: "Quality with Just Enough Diversity in Evolutionary Policy Search"
+      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      authors: Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully
+      conference: GECCO 2024 
+      date: 2024-07-01
+      # blog: #
+      tldr: Quality with Just Enough Diversity (JEDi) uses behavrio information from Quality-Diversity to improve the search capabilities of ES, by learning and focusing on interesting behaviors.
+      excerpt: "Evolution Strategies (ES) are effective gradient-free optimization methods that can be competitive with gradient-based approaches for policy search. ES only rely on the total episodic scores of solutions in their population, from which they estimate fitness gradients for their update with no access to true gradient information. However this makes them sensitive to deceptive fitness landscapes, and they tend to only explore one way to solve a problem. Quality-Diversity methods such as MAP-Elites introduced additional information with behavior descriptors (BD) to return a population of diverse solutions, which helps exploration but leads to a large part of the evaluation budget not being focused on finding the best performing solution. Here we show that behavior information can also be leveraged to find the best policy by identifying promising search areas which can then be efficiently explored with ES. We introduce the framework of Quality with Just Enough Diversity (JEDi) which learns the relationship between behavior and fitness to focus evaluations on solutions that matter. When trying to reach higher fitness values, JEDi outperforms both QD and ES methods on hard exploration tasks like mazes and on complex control problems with large policies."
+
+
+    - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
+      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      authors: Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson
+      conference: IEEE CEC 2024 
+      date: 2024-07-01
+      # blog: #
+      tldr: By studying the injection of an RL actor into an ES population, we show they drift apart genetically, which can lead to the ES breaking. We introduce GDR, a simple regularization in the actor training loss, to fix it.
+      excerpt: "Evolutionary Algorithms (EA) have been successfully used for the optimization of neural networks for policy search, but they still remain sample inefficient and underperforming in some cases compared to gradient-based reinforcement learning (RL). Various methods combine the two approaches, many of them training a RL algorithm on data from EA evaluations and injecting the RL actor into the EA population. However, when using Evolution Strategies (ES) as the EA, the RL actor can drift genetically far from the the ES distribution and injection can cause a collapse of the ES performance. Here, we highlight the phenomenon of genetic drift where the actor genome and the ES population distribution progressively drift apart, leading to injection having a negative impact on the ES. We introduce Genetic Drift Regularization (GDR), a simple regularization method in the actor training loss that prevents the actor genome from drifting away from the ES. We show that GDR can improve ES convergence on problems where RL learns well, but also helps RL training on other tasks, , fixes the injection issues better than previous controlled injection methods."
+
+    - title: "Searching Search Spaces: Meta-evolving a Geometric Encoding for Neural Networks"
+      link: "https://arxiv.org/pdf/2403.14019"
+      # code: "https://github.com/TemplierPaul/pyUCEA"
+      authors: Tarek Kunze, Paul Templier, Dennis G. Wilson
+      conference: IEEE CEC 2024 
+      date: 2024-07-01
+      # blog: #
+      tldr: The Geometric Encoding for Neural Network Evolution (GENE) relies on pseudo-distance functions to encode neural networks as smaller genomes. Using Genetic Programming as a meta-evolution loop, we learned a new encoding based on GENE. The discovered encoding makes sparse networks emerge naturally. 
+      excerpt: "In evolutionary policy search, neural networks are usually represented using a direct mapping: each gene encodes one network weight. Indirect encoding methods, where each gene can encode for multiple weights, shorten the genome to reduce the dimensions of the search space and better exploit permutations and symmetries. 
+    The Geometric Encoding for Neural network Evolution (GENE) introduced an indirect encoding where the weight of a connection is computed as the (pseudo-)distance between the two linked neurons, leading to a genome size growing linearly with the number of genes instead of quadratically in direct encoding. However GENE still relies on hand-crafted distance functions with no prior optimization. Here we show that better performing distance functions can be found for GENE using Cartesian Genetic Programming (CGP) in a meta-evolution approach, hence optimizing the encoding to create a search space that is easier to exploit. We show that GENE with a learned function can outperform both direct encoding and the hand-crafted distances, generalizing on unseen problems, and we study how the encoding impacts neural network properties. "
+
+
     - title: "LUCIE: An Evaluation and Selection Method for Stochastic Problems"
       link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
       code: "https://github.com/TemplierPaul/pyUCEA"
       authors: Erwan Lecarpentier, Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
-      conference: GECCO 2022 (Genetic and Evolutionary Computation Conference)
+      conference: GECCO 2022 
       date: 2022-06-08
-      blog: #
-      excerpt: Selection in genetic algorithms is difficult for stochastic problems due to noise in the fitness space. Common methods to deal with this fitness noise include sampling multiple fitness values, which can be expensive. We propose LUCIE, the Lower Upper Confidence Intervals Elitism method, which selects individuals based on confi- dence. By focusing evaluation on separating promising individuals from others, we demonstrate that LUCIE can be effectively used as an elitism mechanism in genetic algorithms. We provide a the- oretical analysis on the convergence of LUCIE and demonstrate its ability to select fit individuals across multiple types of noise on the OneMax and LeadingOnes problems. We also evaluate LUCIE as a selection method for neuroevolution on control policies with stochastic fitness values.
+      # blog: #
+      tldr: To tackle the impact of uncertain evaluations in genetic algorithms, we introduce LUCIE, a resampling scheme based on a bandit approach. LUCIE is able to better select elite individuals, making the GA more robust to noise. 
+      excerpt: Selection in genetic algorithms is difficult for stochastic problems due to noise in the fitness space. Common methods to deal with this fitness noise include sampling multiple fitness values, which can be expensive. We propose LUCIE, the Lower Upper Confidence Intervals Elitism method, which selects individuals based on confi- dence. By focusing evaluation on separating promising individuals from others, we demonstrate that LUCIE can be effectively used as an elitism mechanism in genetic algorithms. We provide a theoretical analysis on the convergence of LUCIE and demonstrate its ability to select fit individuals across multiple types of noise on the OneMax and LeadingOnes problems. We also evaluate LUCIE as a selection method for neuroevolution on control policies with stochastic fitness values.
 
     - title: A Geometric Encoding for Neural Network Evolution
       link: "https://dl.acm.org/doi/10.1145/3449639.3459361"
       code: "https://github.com/TemplierPaul/GENE.jl"
+      video: "https://www.youtube.com/watch?v=ovTxliLnKio"
       authors: Paul Templier, Emmanuel Rachelson, Dennis G. Wilson
-      conference: GECCO 2021 (Genetic and Evolutionary Computation Conference)
+      conference: GECCO 2021 
       date: 2021-06-01
-      blog: #
+      # blog: #
+      tldr: Directly optimizing the weights of a neural network with evolution can get expensive, especially with methods like XNES or CMAES. We introduce GENE, a new method to encode neural networks as genomes which keeps the performance of direct encoding while reducing the size of the genome by an order of magnitude.
       excerpt: A major limitation to the optimization of artificial neural networks (ANN) with evolutionary methods lies in the high dimensionality of the search space, the number of weights growing quadratically with the size of the network. This leads to expensive training costs, especially in evolution strategies which rely on matrices whose sizes grow with the number of genes. We introduce a geometric encoding for neural network evolution (GENE) as a representation of ANN parameters in a smaller space that scales linearly with the number of neurons, allowing for efficient parameter search. Each neuron of the network is encoded as a point in a latent space and the weight of a connection between two neurons is computed as the distance between them. The coordinates of all neurons are then optimized with evolution strategies in a reduced search space while not limiting network fitness and possibly improving search.
 
     - title: "Evolving a Dota 2 bot: Illuminating search in CGP and NEAT"
@@ -357,7 +414,7 @@ publications:
       authors: Paul Templier, Lucas Hervier, Dennis G. Wilson
       conference: Competition at GECCO 2020
       date: 2020-06-01
-      blog: #
+      # blog: #
       excerpt: In this work we present an evolution-based approach applied to Dota 2 in the Project Breezy challenge. The goal of this project is to train an agent to play a 1v1 Midlane match against the game's bots of varrying difficulties, with both sides playing Shadow Fiend. The approach we implemented relies on the MAP-elites algorithm assisted with a neural-based simulator of the game to increase behavior diversity and reduce computation load, using CGP agents or NEAT networks as individuals.
 
   intro_articles: |

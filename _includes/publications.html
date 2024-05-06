@@ -10,6 +10,33 @@
     {{ publications.title }}
   </h2>
 
+  {% if publications.manuscript %}
+  <div class="intro"> PhD Manuscript </div>
+
+  {% for publication in publications.manuscript %}
+  <div class="item">
+
+    <div class="publication-title">{{ publication.title }}</div>
+
+    <div class="publication-conference">Defended {{ publication.date }}</div>
+
+
+    <div class="publication-conference">
+      {% if publication.link %}<a href="{{ publication.link }}" target="_blank"> (PDF) </a>{% endif %}
+
+      {% if publication.defense %}<a href="{{ publication.defense }}" target="_blank"> (Defense report) </a>{% endif %}
+
+      {% if publication.blog %}<a href="{{ publication.blog }}" target="_blank"> (Blog) </a>{% endif %}
+
+      {% if publication.video %}<a href="{{ publication.video }}" target="_blank"> (Video) </a>{% endif %}
+    </div>
+
+    <div class="publication-tldr">{% if publication.tldr %} {{ publication.tldr }} {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
   {% if publications.intro_research %}
   <div class="intro">
     {{ publications.intro_research | markdownify }}
@@ -20,17 +47,25 @@
   {% for publication in publications.research %}
   <div class="item">
 
-    <li>{{ publication.title }}</li>
+    <div class="publication-title">
+      {{ publication.title }}</div>
+    <div class="publication-conference">
+      {{ publication.conference }}
 
-    <div class="publication-authors">
-      {{ publication.authors }}
       {% if publication.link %}<a href="{{ publication.link }}" target="_blank"> (Paper) </a>{% endif %}
 
       {% if publication.code %}<a href="{{ publication.code }}" target="_blank"> (Code) </a>{% endif %}
 
       {% if publication.blog %}<a href="{{ publication.blog }}" target="_blank"> (Blog) </a>{% endif %}
+
+      {% if publication.video %}<a href="{{ publication.video }}" target="_blank"> (Video) </a>{% endif %}
     </div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+
+    <div class="publication-authors">
+      {{ publication.authors }}
+    </div>
+    <div class="publication-tldr">{% if publication.tldr %} {{ publication.tldr }} {% endif %}
+    </div>
   </div>
   <!--//item-->
   {% endfor %}
