@@ -82,14 +82,14 @@ header:
 
 ~ GECCO 2024
 
-- Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully (paper soon)  
+- Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully [(paper)](https://arxiv.org/abs/2405.04308)  
 
 
 **Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies**
 
 ~ IEEE CEC 2024
 
-- Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson (paper soon)  
+- Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson [(paper)](https://arxiv.org/abs/2405.04322)  
 
 
 **Searching Search Spaces: Meta-evolving a Geometric Encoding for Neural Networks**

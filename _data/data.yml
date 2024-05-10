@@ -355,7 +355,7 @@ publications:
   research:
 
     - title: "Quality with Just Enough Diversity in Evolutionary Policy Search"
-      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      link: "https://arxiv.org/abs/2405.04308"
       # code: "https://github.com/TemplierPaul/pyUCEA"
       authors: Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully
       conference: GECCO 2024 
@@ -366,7 +366,7 @@ publications:
 
 
     - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
-      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      link: "https://arxiv.org/abs/2405.04322"
       # code: "https://github.com/TemplierPaul/pyUCEA"
       authors: Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson
       conference: IEEE CEC 2024 
