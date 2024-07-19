@@ -174,7 +174,7 @@ experiences:
       link: https://pricemoov.com/
       details: |
         Leading high-stake international projects with long-term implications in an AI-focused startup.
-        Structuring internal processes and implementing management KPIs.
+      # Structuring internal processes and implementing management KPIs.
 
     # - role: Quality-Audit analyst
     #   time: 2016-2018
@@ -358,10 +358,11 @@ publications:
       link: "https://arxiv.org/abs/2405.04308"
       # code: "https://github.com/TemplierPaul/pyUCEA"
       authors: Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully
-      conference: GECCO 2024 
+      conference: GECCO 2024 - Best Paper Award
+      # note: GECCO 24 Best Paper Award
       date: 2024-07-01
       # blog: #
-      tldr: Quality with Just Enough Diversity (JEDi) uses behavrio information from Quality-Diversity to improve the search capabilities of ES, by learning and focusing on interesting behaviors.
+      tldr: Quality with Just Enough Diversity (JEDi) uses behavior information from Quality-Diversity to improve the search capabilities of ES, by learning and focusing on interesting behaviors.
       excerpt: "Evolution Strategies (ES) are effective gradient-free optimization methods that can be competitive with gradient-based approaches for policy search. ES only rely on the total episodic scores of solutions in their population, from which they estimate fitness gradients for their update with no access to true gradient information. However this makes them sensitive to deceptive fitness landscapes, and they tend to only explore one way to solve a problem. Quality-Diversity methods such as MAP-Elites introduced additional information with behavior descriptors (BD) to return a population of diverse solutions, which helps exploration but leads to a large part of the evaluation budget not being focused on finding the best performing solution. Here we show that behavior information can also be leveraged to find the best policy by identifying promising search areas which can then be efficiently explored with ES. We introduce the framework of Quality with Just Enough Diversity (JEDi) which learns the relationship between behavior and fitness to focus evaluations on solutions that matter. When trying to reach higher fitness values, JEDi outperforms both QD and ES methods on hard exploration tasks like mazes and on complex control problems with large policies."
 
 
