@@ -55,17 +55,24 @@
     </li>
     {% endif %}
 
+    {% if sidebar.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.scholar %}
     <li class="github"><i class="fab fa-google"></i>
       <a href="{{ sidebar.scholar }}" target="_blank">Google Scholar</a>
     </li>
     {% endif %}
 
-    {% if sidebar.gitlab %}
-    <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+    {% if sidebar.orcid %}
+    <li class="github"><i class="fab fa-orcid"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">ORCID {{ sidebar.orcid }}</a>
     </li>
     {% endif %}
+
 
     {% if sidebar.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>

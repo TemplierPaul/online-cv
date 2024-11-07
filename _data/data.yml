@@ -23,6 +23,7 @@ sidebar:
   scholar: "https://scholar.google.com/citations?user=lPrCGzYAAAAJ&hl=fr&oi=ao"
   telegram: # add your nickname without '@' sign
   gitlab:
+  orcid: 0000-0001-8919-8639
   bitbucket:
   # twitter: '@webjeda'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -337,6 +338,17 @@ projects:
       tagline: Bruteforce solvers for puzzle games like Minesweeper or Scrabble. 
       date: 2023-01-01
       collection: Personal Project
+
+oss:
+    title: OSS Contributions
+    intro: >
+      Contributions to other Open-Source Software projects
+    contributions:
+      - title: Kheperax
+        link: "https://github.com/adaptive-intelligent-robotics/Kheperax"
+        tagline: "High-performance JAX-powered simulator for robotic navigation in 2D mazes"
+
+
 
 publications:
   title: Publications
