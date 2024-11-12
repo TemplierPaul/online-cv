@@ -378,7 +378,9 @@ publications:
   title: Publications
   manuscript:
     - title: "Leveraging Structures in Evolutionary Neural Policy Search"
-      # link: "https://dl.acm.org/doi/10.1145/3512290.3528838"
+      # link: "assets/manuscript.pdf"
+      pdf: "https://theses.fr/api/v1/document/2024ESAE0020"
+      link: "https://theses.fr/2024ESAE0020"
       # code: "https://github.com/TemplierPaul/pyUCEA"
       # defense: "TODO"
       authors: Paul Templier

@@ -22,7 +22,9 @@
 
 
     <div class="publication-conference">
-      {% if publication.link %}<a href="{{ publication.link }}" target="_blank"> (PDF) </a>{% endif %}
+      {% if publication.link %}<a href="{{ publication.pdf }}" target="_blank"> (PDF) </a>{% endif %}
+
+      {% if publication.link %}<a href="{{ publication.link }}" target="_blank"> (Thèses.fr) </a>{% endif %}
 
       {% if publication.defense %}<a href="{{ publication.defense }}" target="_blank"> (Defense report) </a>{% endif %}
 
