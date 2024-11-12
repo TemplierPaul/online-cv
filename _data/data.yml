@@ -408,6 +408,7 @@ publications:
     - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
       link: "https://arxiv.org/abs/2405.04322"
       # code: "https://github.com/TemplierPaul/pyUCEA"
+      video: "https://youtu.be/B1Fk4K_pJtw"
       authors: Paul Templier, Emmanuel Rachelson, Antoine Cully, Dennis G. Wilson
       conference: IEEE CEC 2024 
       date: 2024-07-01
