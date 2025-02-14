@@ -7,10 +7,24 @@
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {% for language in languages.info %}
+    {% for language in languages.levels %}
     <li>
       {{ language.idiom }}
       <span class="lang-desc">({{ language.level }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <br>
+  <h2 class="container-block-title">
+    Certifications
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for language in languages.certifications %}
+    <li>
+      {{ language.idiom }} - {{ language.level }}
+      <span class="lang-desc">({{ language.from }}, {{ language.date }})</span>
     </li>
     {% endfor %}
   </ul>

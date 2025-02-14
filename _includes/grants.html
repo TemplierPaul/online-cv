@@ -1,5 +1,5 @@
-{% assign talks_list = site.data.data.talks %}
-{% if talks_list %}
+{% assign grants_awards = site.data.data.grants_awards %}
+{% if grants_awards %}
 
 <section class="section publications-section">
 
@@ -9,26 +9,27 @@
       <!-- <i class="fa-solid fa-person-chalkboard fa-stack-1x fa-inverse"></i> -->
       <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
     </span>
-    Talks
+    {{ grants_awards.title }}
   </h2>
   
-  {% if talks_list.recorded_talks %}
-  <div class="intro"> Recorded talks: </div>
+  {% if grants_awards.grants %}
+  <div class="intro"> Grants: </div>
 
-  {% for talk in talks_list.recorded_talks %}
+  {% for grant in grants_awards.grants %}
   <div class="item">
     <div class="publication-title">
-      {{ talk.title }}</div>
+      {{ grant.title }}</div>
     <div class="publication-conference">
-      {{ talk.date }} <br>
-      {{ talk.place }}
-    {% if talk.link %}<a href="{{ talk.link }}" target="_blank"> (Video) </a>{% endif %}
+      {% if grant.amount %}{{ grant.amount }},{% endif %}
+      {{ grant.date }} 
+    
+    {% if grant.link %}<a href="{{ grant.link }}" target="_blank"> (Link) </a>{% endif %}
 
     <!--//meta-->
 
-    {% if talk.details %}
+    {% if grant.details %}
     <div class="publication-tldr">
-      {{ talk.details | markdownify }}
+      {{ grant.details | markdownify }}
     </div>
     <!--//details-->
     {% endif %}
@@ -38,26 +39,26 @@
   {% endfor %}
   {% endif %}
 
-  {% if talks_list.research_presentations %}
+  {% if grants_awards.awards %}
   <!-- Add empty line -->
   <br>
-  <div class="intro"> Personal research presentations: </div>
+  <div class="intro"> Awards: </div>
 
-  {% for talk in talks_list.research_presentations %}
+  {% for award in grants_awards.awards %}
   <div class="item">
     <div class="publication-title">
-      {{ talk.title }}</div>
+      {{ award.title }}</div>
     <div class="publication-conference">
-      {{ talk.date }} <br>
-      {{ talk.place }}
-
-    {% if talk.link %}<a href="{{ talk.link }}" target="_blank"> (Video) </a>{% endif %}
+      {% if award.amount %}{{ award.amount }},{% endif %}
+      {{ award.date }} 
+    
+    {% if award.link %}<a href="{{ award.link }}" target="_blank"> (Link) </a>{% endif %}
 
     <!--//meta-->
 
-    {% if talk.details %}
+    {% if award.details %}
     <div class="publication-tldr">
-      {{ talk.details | markdownify }}
+      {{ award.details | markdownify }}
     </div>
     <!--//details-->
     {% endif %}

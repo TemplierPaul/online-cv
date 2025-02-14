@@ -25,6 +25,10 @@ header:
 - Topic: Leveraging Structures in Evolutionary Neural Policy Search
 - Supervisors: Emmanuel Rachelson, Dennis Wilson.
 
+**PhD in Machine Learning**
+~ ISAE-SUPAERO, Toulouse, France
+~ 2021-2024
+
 **MSc in Engineering**
 ~ ISAE-SUPAERO, Toulouse, France
 ~ 2016-2020
@@ -36,9 +40,15 @@ header:
 
 ## Work experience
 
+**Research Associate**
+~ Imperial College London, UK
+~ Aug 2024-Present
+
+- Postdoc at Imperial College London focusing on adaptive and intelligent robotics, while continuing research on evolutionary methods and Quality-Diversity.
+
 **PhD in Machine Learning**
 ~ ISAE-SUPAERO, Toulouse, France
-~ 2021-Present
+~ 2021-2024
 
 - Research on Evolution Strategies for policy search, covering deep RL, Quality-Diversity, Genetic Programming.
 - Teaching: 150h in Python and Evolutionary Computation. Co-supervision of an intern leading to a CEC paper.
@@ -73,16 +83,15 @@ header:
 ~ Jul-Dec 2019
 
 - Leading high-stake international projects with long-term implications in an AI-focused startup.
-- Structuring internal processes and implementing management KPIs.
 
 
 ## Publications
 
 **Quality with Just Enough Diversity in Evolutionary Policy Search**
 
-~ GECCO 2024
+~ GECCO 2024 - Best Paper Award
 
-- Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully [(paper)](https://arxiv.org/abs/2405.04308)  
+- Paul Templier, Luca Grillotti, Emmanuel Rachelson, Dennis G. Wilson, Antoine Cully [(paper)](https://arxiv.org/abs/2405.04308)  [(code)](https://github.com/TemplierPaul/QDax_ES) 
 
 
 **Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies**
@@ -96,7 +105,7 @@ header:
 
 ~ IEEE CEC 2024
 
-- Tarek Kunze, Paul Templier, Dennis G. Wilson [(paper)](https://arxiv.org/pdf/2403.14019)  
+- Tarek Kunze, Paul Templier, Dennis G. Wilson [(paper)](https://arxiv.org/pdf/2403.14019)  [(code)](https://github.com/arxaqapi/gene.jax) 
 
 
 **LUCIE: An Evaluation and Selection Method for Stochastic Problems**

@@ -1,0 +1,41 @@
+{% assign lab_life = site.data.data.lab_life %}
+{% if lab_life %}
+<section class="section projects-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ lab_life.title }}
+  </h2>
+
+  {% if lab_life.intro %}
+  <div class="intro">
+    <p>{{ lab_life.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %}
+
+  {% for contribution in lab_life.contributions %}
+  <div class="item">
+
+    <span class="project-title">
+      {{ contribution.title }}
+    </span>
+
+    {% if contribution.details %}
+    - <span class="project-tagline">{{ contribution.details }}
+
+        {% if contribution.link %}
+      <a href="{{ contribution.link }}" target="_blank"> (Link) </a>
+      {% endif %}   
+    </span>
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}

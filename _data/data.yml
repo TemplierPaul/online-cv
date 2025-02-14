@@ -35,15 +35,32 @@ sidebar:
 
   languages:
     title: Languages
-    info:
+    levels:
       - idiom: French
         level: Native
 
       - idiom: English
-        level: Certificate of Proficiency - C2
+        level: Proficient - C2
 
       - idiom: Spanish
         level: Independant - B2
+
+    certifications:
+      - idiom: English
+        level: C2
+        date: 2024
+        from: UKVI
+
+      - idiom: English
+        level: C2
+        date: 2017
+        from: Cambridge
+
+      
+
+      
+
+
 
   cs_languages:
     title: Coding
@@ -54,25 +71,26 @@ sidebar:
       - idiom: Jax, pytorch, sklearn, pandas, MPI, Ray
         level: Computing tools
 
-      - idiom: Julia
-        level: Professional experience
+      - idiom: SLURM, PBS
+        level: HPC frameworks
 
-      - idiom: C / Java
+      - idiom: C / Java / Julia
         level: Academic experience
 
       - idiom: JS / HTML / CSS
         level: Side projects
 
+      # - idiom: Linux / Windows / MacOS
+      #   level: OS
+
   interests:
     title: Interests
     info:
       - item: Evolutionary computation
-      - item: Machine Learning
       - item: Reinforcement Learning
-      - item: Evolution Strategies
-      - item: Open-ended evolution
-      - item: Auto-ML
       - item: Robotics
+      - item: Evolution Strategies
+      - item: Machine Learning
   hobbies:
     title: Hobbies
     info:
@@ -82,7 +100,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Hi, I recently graduated with a PhD in Machine Learning, specializing in the use of evolutionary methods for the optimization of neural networks as intelligent agents. 
+    Hi, I recently graduated with a **PhD in Machine Learning**, focusing on the use of **evolutionary methods** for the optimization of **neural networks** as intelligent agents. I specialize on learning methods that combine evolution, **Reinforcement Learning** and **Quality-Diversity**, and in my current postdoc at Imperial College London I focus on their application to **adaptive and intelligent robotics**.
     With a background in engineering combined with experience in consulting and teaching, I have built a wide range of skills to be comfortable at all stages of development: from research to implementation, from technical depth to high-level communication, from individual work to team collaboration.
     
 
@@ -101,7 +119,7 @@ education:
       link: https://www.isae-supaero.fr/en/academics/ingenieur-isae-supaero-msc/presentation/
       time: 2016-2020
       details: |
-        Masters in general engineering, applied to aerospace problems. Specialized in Data Science (major) and Robotics (minor). 
+        Masters in general engineering, applied to aerospace problems. Specialized in Data Science (major) and Robotics (minor). GPA: 4.18.
         Research projects:
           - Deep Learning to solve NP-hard problems
           - Deep Reinforcement Learning for human-machine cooperation.
@@ -161,7 +179,7 @@ experiences:
           link: https://www.imperial.ac.uk/people/a.cully
 
       details: |
-        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College London: studying Evolutionary RL and mixes of ES with Quality-Diversity.
+        Visiting student at Antoine Cully's Adaptative & Intelligent Robotics Lab (AIRL) at Imperial College Londo, focusing Evolutionary RL and mixes of ES with Quality-Diversity. This collaboration lead to 2 published articles and a postdoc. 
 
     - role: Research Intern
       time: May-Nov 2020
@@ -174,12 +192,12 @@ experiences:
       details: |
         Evolution of neural networks with genetic algorithms for to video games. Implementing NEAT, HyperNEAT in Julia. Ranked first in the GECCO 2020 competition on evolving a DOTA 2 bot.
 
-    - role: Member of the Board
-      time: 2017-2020
-      company: ISAE-SUPAERO, Toulouse, France
-      link: https://www.isae-supaero.fr/fr/
-      details: |
-        Elected mandate as Students Representative on the ISAE-SUPAERO board.
+    # - role: Member of the Board
+    #   time: 2017-2020
+    #   company: ISAE-SUPAERO, Toulouse, France
+    #   link: https://www.isae-supaero.fr/fr/
+    #   details: |
+    #     Elected mandate as Students Representative on the ISAE-SUPAERO board.
 
     - role: Cybersecurity Consultant
       time: Feb-Aug 2020
@@ -304,6 +322,29 @@ teaching:
   #     Elective module on evolutionary computation for students in their 1st year of MSc Eng. I gave 2 classes of the module: 
   #       - Evolution of neural networks
   #       - Quality-diversity approaches, evolution of behavior, coevolution
+
+lab_life:
+  title: Research life contributions
+  intro: >
+    I believe one's contribution to the scientific community also lies in the support and organization of research activities. Here are some of the ways I try to contribute:
+
+  contributions:
+    - title: Peer Review
+      details: Reviewer for GECCO (2023-2024-2025), IEEE TEVC (2024), ALIFE (2025).
+
+    - title: MSc student supervision
+      details: Co-supervised Tarek Kunze's MSc thesis on the meta-evolution of neural network encodings (2024), leading to a CEC 2024 paper.
+      link: "https://arxiv.org/pdf/2403.14019"
+
+    - title: Hiring interviews (AIRL)
+      details: Participated in the hiring process for 4 postdoc positions in my Imperial College lab (2024). In charge of technical interviews for PhD student applications (2025).
+
+    - title: ICARL seminars
+      link: https://icarl.doc.ic.ac.uk/home
+      details: Part of the Imperial College Autonomous Reasoning & Learning seminars organization team (2025).
+
+    - title: Elected mandates
+      details: Elected mandate as Students Representative on the ISAE-SUPAERO board (2017-2020), and as CPGE Students Representative on the board of Lycée J-B Say (2015-2016).
 
 projects:
   title: Projects
@@ -472,23 +513,81 @@ publications:
       date: 2019-07-01
 
 talks:
-  - title: Quality with Just Enough Diversity in Evolutionary Policy Search
-    place: GECCO 2024 (recorded)
-    link: https://www.youtube.com/watch?v=ovTxliLnKio
-    date: 21 July 2021
-    details: Presenting our JEDi paper at GECCO 2024. The video was pre-recorded, and the live talk was presented by Dennis Wilson.
+  recorded_talks:
+    - title: Quality with Just Enough Diversity in Evolutionary Policy Search
+      place: GECCO 2024 (recorded)
+      link: https://www.youtube.com/watch?v=ovTxliLnKio
+      date: August 2024
+      details: Presenting our JEDi paper at GECCO 2024. The video was pre-recorded, and the live talk was presented by Dennis Wilson.
 
-  - title: Ma Thèse en 180 secondes - Regional Finals (FR)
-    place: Théâtre Sorano (460 people)
-    link: https://www.youtube.com/watch?v=07tJvEV6tOM
-    date: 25 March 2022
-    details: Regional finals of the MT180 competition, where PhD students have 3 minutes to explain their research topic to a broad public. 
+    - title: "Genetic Drift Regularization: on preventing Actor Injection from breaking Evolution Strategies"
+      place: CEC 2024 (Yokoama, Japan)
+      link: "https://youtu.be/B1Fk4K_pJtw"
+      date: 2 July 2024
+      details: Presenting our GDR paper at CEC 2024. The video was pre-recorded.
 
-  - title: A Geometric Encoding for Neural Network Evolution
-    place: GECCO 2022 (online)
-    link: https://www.youtube.com/watch?v=ovTxliLnKio
-    date: 21 July 2021
-    details: Presenting our GENE paper at GECCO 2021. The video was pre-recorded.
+    - title: Ma Thèse en 180 secondes - Regional Finals (FR)
+      place: Théâtre Sorano (460 people)
+      link: https://www.youtube.com/watch?v=07tJvEV6tOM
+      date: 25 March 2022
+      details: Regional finals of the MT180 competition, where PhD students have 3 minutes to explain their research topic to a broad public. 
+
+    - title: A Geometric Encoding for Neural Network Evolution
+      place: GECCO 2022 (online)
+      link: https://www.youtube.com/watch?v=ovTxliLnKio
+      date: 21 July 2021
+      details: Presenting our GENE paper at GECCO 2021. The video was pre-recorded.
+
+  research_presentations:
+    - title: Quality with Just Enough Diversity in Evolutionary Policy Search
+      place: Tsukuba University, Japan
+      date: 8 July 2024
+      details: Presenting my research on JEDi to Prof. Claus Aranha's team at Tsukuba University.
+
+    - title: Evolution Strategies for Policy Search
+      place: Imperial College London, UK 
+      date: 10 March 2023
+      details: Introduction presentation of my research to the AIRL lab at Imperial College London.
+
+    - title: Mid-PhD defense
+      place: ISAE-SUPAERO, France
+      date: 29 June 2022
+      details: Presentation to an external jury composed of Prof. Nikolaus Hansen and Prof. Olivier Sigaud.
+
+grants_awards:
+  title: Grants & Awards
+  grants:
+    - title: Visiting PhD Scholarship
+      amount: 10k€
+      date: 2023
+      details: |
+        Grant to visit the AIRL lab at Imperial College London for 4 months. Combines grants awarded by ISAE-SUPAERO and the EDMITT doctoral school. 
+
+    - title: PhD Scholarship
+      amount: 55k€
+      date: 2021-2024
+      details: |
+        3-year PhD scholarship from Région Occitanie, covering tuition fees and a monthly stipend.
+
+    - title: PhD Scholarship
+      amount: 37k€
+      date: 2021-2024
+      details: |
+        3-year PhD scholarship from ISAE-SUPAERO, to complete the Région Occitanie funding.
+
+  awards:
+    - title: "GECCO 2024: Best Paper Award"
+      date: 2024
+      link: "https://gecco-2024.sigevo.org/Best-Paper-Awards#CS_L4EC_Tracks"
+      details: |
+        Best Paper Award at GECCO 2024 for the article "Quality with Just Enough Diversity in Evolutionary Policy Search", in the combined tracks of Complex Systems and Learning for Evolutionary Computation.
+
+    - title: "GECCO 2020 Competition: Evolving a Dota 2 bot"
+      amount: First place
+      date: 2020
+      link: "https://gecco-2020.sigevo.org/index.html/Competitions#id_Dota%202%201-on-1%20Shadow%20Fiend%20Laning%20Competition"
+      details: |
+        First place at the GECCO 2020 competition on evolving a Dota 2 bot for 1v1 matches, with Lucas Hervier and Dennis Wilson.
 
 # skills:
 #   title: Skills &amp; Proficiency
