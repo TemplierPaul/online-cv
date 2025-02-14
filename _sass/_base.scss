@@ -211,6 +211,7 @@ p {
   }
 
   .experiences-section,
+  .recommendations-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -235,7 +236,7 @@ p {
     font-weight: 500;
     flex: 75%;
   }
-
+ 
   .time,
   .cert-url {
     position: absolute;
@@ -253,6 +254,7 @@ p {
   }
 
   .company,
+  .recommendation-role,
   .university,
   .cert-org {
     margin-bottom: 10px;
@@ -276,6 +278,14 @@ p {
     .item {
       margin-bottom: 15px;
       text-align: justify;
+    }
+  }
+  .oss-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 15px;
     }
   }
 
